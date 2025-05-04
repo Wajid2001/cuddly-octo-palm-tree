@@ -1,0 +1,40 @@
+.incident-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+  .dashboard-title {
+    flex-grow: 1;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+
+  .dashboard-content-box {
+    width: 100%;
+    background-color: var(--mui-palette-background-paper);
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabs-container {
+    border-bottom: 1px solid var(--mui-palette-divider);
+    width: 50%;
+    margin: 0 auto;
+
+    svg {
+        height: 24px;
+        width: 24px;
+    }
+    .MuiTabs-indicator {
+        height: 3px;
+    }
+  }
+
+  .add-incident-button {
+    margin-left: auto;
+  }
+}

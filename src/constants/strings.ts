@@ -1,0 +1,43 @@
+export const strings = {
+  appName: "Incident Management App",
+  incidentDashboard: {
+    title: "Incident Dashboard",
+    userScreenTab: "User Screen",
+    adminScreenTab: "Admin Screen",
+    newIncidentButton: "New Incident",
+    roleBasedTabsAriaLabel: "role based tabs",
+  },
+  incidentTable: {
+    idHeader: "ID",
+    titleHeader: "Title",
+    descriptionHeader: "Description",
+    severityHeader: "Severity",
+    createdDateHeader: "Created Date",
+    lastUpdatedDateHeader: "Last Updated Date",
+    statusHeader: "Status",
+    noSeverity: "-",
+    noCreatedDate: "-",
+    ariaLabel: "incident table",
+  },
+  reportIncidentModal: {
+    titleUser: "Report New Incident",
+    titleAdmin: "Create New Incident",
+    closeButton: "Close",
+    submitButton: "Submit",
+    severityLabel: "Severity",
+    statusLabel: "Status",
+    titleLabel: "Title",
+    descriptionLabel: "Description",
+    requiredError: "This field is required",
+    severityOptions: {
+      low: "Low",
+      medium: "Medium",
+      high: "High",
+      critical: "Critical",
+    },
+  },
+  dynamicForm: {
+    cancelButton: "Cancel",
+    submitButton: "Submit",
+  },
+};
